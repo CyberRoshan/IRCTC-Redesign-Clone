@@ -204,6 +204,7 @@ form > .row {
   margin: auto;
 }
 .mid-services > img {
+  width: 100%;
   position: sticky;
   z-index: 99;
 }
@@ -322,7 +323,6 @@ form > .row {
   border-radius: 20px;
   display: block;
   transition: 0.5s;
-
 }
 .holiday-items:hover .items-image>img{
   transform: scale(1.02);

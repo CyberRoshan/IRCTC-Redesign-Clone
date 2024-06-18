@@ -102,3 +102,91 @@
  }
  /* ! Footer Section End */
 }
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+  /* ! Header Section Start */
+  nav {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .nav-center .m-none{
+    display: none;
+  }
+  .nav-center > li a {
+    font-size: 16px;
+  }
+  /* ! Header Section End */
+  /* ! Hero Section Start */
+  .mid-hero {
+    max-width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .mid-hero > form {
+    width: 90%;
+  }
+  form > .row {
+    gap: 20px;
+  }
+  .row-item > input {
+    width: 100%;
+  }
+  .row2{
+    margin: auto;
+  }
+  .row-item > select {
+    width: 100%;
+  }
+  #Quota,#All-classes{
+    display: none;
+  }
+  .tick {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ! Hero Section End */
+  /* ! Services Section Start */
+  .mid-services {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .services-items {
+    flex-basis: 25%;
+  }
+  /* ! Services Section End */
+  /* ! Assistance Section Start */
+  .main-assistance {
+    background: url(/images/custcare.png) no-repeat top center;
+  }
+  .assistances-sides {
+    flex-basis: 100%;
+    padding: 0px 20px;
+  }
+  .bottom-line-box {
+    height: 80px;
+  }
+  .bottom-line-box > p {
+    text-align: center;
+  }
+  /* ! Assistance Section End */
+  /* ! Plan Holidays Section Start */
+  .mid-holiday {
+    max-width: 100%;
+    padding: 70px 20px;
+  }
+  .holiday-items {
+    flex-basis: 48%;
+  }
+  /* ! Plan Holidays Section End */
+  /* ! Footer Section Start */
+  .mid-footer {
+    max-width: 100%;
+    padding: 0px 20px;
+  }
+  .footer-rows2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* ! Footer Section End */
+}
