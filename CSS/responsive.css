@@ -1,0 +1,104 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+   /*  ! Header Section Start */
+ header{
+    width: 100%;
+ }   
+ nav{
+    max-width: 100%;
+    padding: 10px 20px;
+ }
+ .nav-center{
+    display: none;
+ }
+ /*  ! Header Section End */
+ /* ! Hero Section Start */
+ .main-hero {
+   background: url(/images/heroimage.png) no-repeat top center;
+   background-size: cover;
+ }
+ .mid-hero {
+   max-width: 100%;
+   padding: 0px 20px;
+ }
+ .mid-hero > h1 {
+   font-size: 40px;
+   text-align: center;
+ }
+ .mid-hero > form {
+   display: none;
+ }
+ /* ! Hero Section End */
+ /* ! Services Section Start */
+ .mid-services {
+   max-width: 100%;
+   padding: 50px 20px;
+ }
+ .mid-services > img {
+   display: none;
+ }
+ .services-container {
+   flex-direction: column;
+ }
+ .services-items {
+   flex-basis: 100%;
+ }
+ /* ! Services Section End */
+ /* ! Assistance Section Start */
+ .main-assistance {
+   background: url(/images/custcare.png) no-repeat top left;
+ }
+ .assistances-sides {
+   flex-basis: 100%;
+   padding: 0px 20px;
+ }
+ .bottom-line-box > p {
+   display: none;
+ }
+ .bottom-line-box > .mobile-p {
+   font-size: 16px;
+   display: block;
+ }
+ /* ! Assistance Section End */
+ /* ! Plan Holidays Section Start */
+ .mid-holiday {
+   max-width: 100%;
+   padding: 70px 20px;
+ }
+ .holiday-container {
+   flex-direction: column;
+ }
+ .holiday-items {
+   flex-basis: 31%;
+   background-color: #181a1c;
+   padding: 20px;
+   border-radius: 20px;
+ }
+ .holiday-items {
+   flex-basis: 100%;
+ }
+ /* ! Plan Holidays Section End */
+ /* ! Footer Section Start */
+ .mid-footer {
+   max-width: 100%;
+   padding: 0px 20px;
+ }
+ .footer-rows {
+   flex-direction: column;
+   gap: 50px;
+ }
+ .footer-rows > .foot1-left {
+   flex-direction: column;
+ }
+ .row-items:nth-child(2) 
+ .row-items:nth-child(3)
+ .row-items:nth-child(4)
+ .row-items:nth-child(5)
+ .row-items:nth-child(9){
+   display: none;
+   background-color: red;
+ }
+ .footer-rows2 {
+   text-align: center;
+ }
+ /* ! Footer Section End */
+}
