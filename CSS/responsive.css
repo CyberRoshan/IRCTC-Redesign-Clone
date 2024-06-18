@@ -13,7 +13,7 @@
  /*  ! Header Section End */
  /* ! Hero Section Start */
  .main-hero {
-   background: url(/images/heroimage.png) no-repeat top center;
+   background: url(https://cyberroshan.github.io/IRCTC-Redesign-Clone//images/heroimage.png) no-repeat top center;
    background-size: cover;
  }
  .mid-hero {
@@ -45,7 +45,7 @@
  /* ! Services Section End */
  /* ! Assistance Section Start */
  .main-assistance {
-   background: url(/images/custcare.png) no-repeat top left;
+   background: url(https://cyberroshan.github.io/IRCTC-Redesign-Clone//images/custcare.png) no-repeat top left;
  }
  .assistances-sides {
    flex-basis: 100%;
@@ -156,7 +156,7 @@
   /* ! Services Section End */
   /* ! Assistance Section Start */
   .main-assistance {
-    background: url(/images/custcare.png) no-repeat top center;
+    background: url(https://cyberroshan.github.io/IRCTC-Redesign-Clone//images/custcare.png) no-repeat top center;
   }
   .assistances-sides {
     flex-basis: 100%;

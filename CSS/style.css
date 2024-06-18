@@ -93,7 +93,7 @@ nav {
 /* ! Hero Section Start */
 .main-hero {
   width: 100%;
-  background: url(/images/heroimage.png) no-repeat center center;
+  background: url(https://cyberroshan.github.io/IRCTC-Redesign-Clone//images/heroimage.png) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
@@ -245,7 +245,7 @@ form > .row {
 .main-assistance {
   width: 100%;
   height: 480px;
-  background: url(/images/custcare.png) no-repeat;
+  background: url(https://cyberroshan.github.io/IRCTC-Redesign-Clone//images/custcare.png) no-repeat;
   background-size: cover;
   display: flex;
 }
